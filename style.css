@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: lightgray;
+}
+
+.profile-container {
+  display: flex;
+}
+img {
+  /* bottom: 0; */
+  position: relative;
+  scale: 0.6;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.description {
+  display: inline-block;
+  margin-top: 90px;
+}
+
+a {
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding-right: 100px;
+  z-index: 2;
+  background: rgb(211, 194, 194);
+}
+
+.about {
+  margin-left: 800px;
+  padding-left: 0;
+}
+.about-section {
+}
+/* .descriptions {
+  display: flex;
+} */
+.description-about-me {
+  width: 400px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.who-i-am {
+  /* margin-left: 470px; */
+  /* padding-left: 50px; */
+  font-size: 35px;
+}
+.js-logo {
+  max-width: 100%;
+  max-height: 100%;
+
+  scale: 0.3;
+  display: inline-block;
+}
+.css-logo {
+  max-width: 100%;
+  max-height: 100%;
+  scale: 0.3;
+  display: inline-block;
+}
+.html-logo {
+  max-width: 100%;
+  max-height: 100%;
+  scale: 0.3;
+  display: inline-block;
+}
+.tools-i-use {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin-left: 300px;
+}
+.tools {
+  margin-top: 70px;
+  margin-left: 500px;
+}
+.contacts-section {
+  display: flex;
+  margin-left: 350px;
+}
+.email {
+  font-family: "Lato", sans-serif;
+}
+.contact-information {
+  /* flex-direction: row; */
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 300px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+.container-contact-info {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* padding-top: 60px; */
+}
+.name,
+.about-my-self {
+  margin-left: 20%;
+}
+.about-my-self {
+  /* top: 100px; */
+}
+.name1 {
+  margin-left: 20%;
+  position: absolute;
+  bottom: 330px;
+  font-size: 50px;
+  color: white;
+}
+.name1::after {
+  content: " Gediminas Mikuckis";
+  color: rgb(255, 255, 255);
+  font-family: "Delicious Handrawn", cursive;
+}
+.name {
+  position: absolute;
+  bottom: 260px;
+  font-size: 30px;
+  color: white;
+}
+
+.presentation {
+  width: 100vw;
+  height: 600px;
+  position: sticky;
+  top: 0;
+  background: rgb(14, 13, 13);
+
+  /* z-index: 0; */
+}
+
+.content {
+  position: sticky;
+  background: lightgray;
+}
